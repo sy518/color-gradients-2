@@ -1,0 +1,72 @@
+.main{
+    background-color: aqua;
+   width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-large;
+    justify-content: space-evenly;
+    text-align: center;
+   justify-items: center;
+   gap: 40px;
+   margin:10px;
+  
+   flex-flow: row-wrap;
+ 
+
+}
+.item1 {
+    width: 100px;
+    height: 100px;
+   background-color: blue;
+   margin:20px;
+}
+.item2 {
+    width: 100px;
+    height: 100px;
+   background-color: brown;
+   margin:20px;
+}
+.item3{
+    width: 100px;
+    height: 100px;
+   background-color: chartreuse;
+   margin:20px;
+}
+.item4{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin:20px;
+}
+.item5{
+    width: 100px;
+    height: 100px;
+   background-color: crimson;
+   margin:20px;
+}
+.item6{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    margin:20px;
+
+}
+div.main :hover{
+    background-image: linear-gradient(red,yellow);
+}
+
+.box{
+background-color: darkolivegreen;
+width: 100px;
+height: 100px;
+}
+.box:hover{
+    background-image:linear-gradient(red,yellow);
+}
+.box2{
+    background-image: radial-gradient(red, yellow, green);
+    width: 200px;
+    height: 200px;
+   box-shadow:  10px 10px 5px rgb(199, 78, 173);
+}
